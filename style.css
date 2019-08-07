@@ -274,14 +274,14 @@ p {
   position: relative;
 }
 .bg-left{
-	background-image: url("../images/bg-1.png");
+	background-image: url("bg-1.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	min-height: 800px;
 }
 .bg-right {
-	background-image: url("../images/bg-2.png");
+	background-image: url("bg-2.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -533,7 +533,7 @@ p {
 	padding: 100px 0;
 }
 .breadcrumb-item  {
-	background: url(../images/bg-about.jpg) no-repeat;
+	background: url(../bg-about.jpg) no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
 	position: absolute;
@@ -563,13 +563,13 @@ p {
 	font-weight: 600;
 }
 .about-left ,.bg-about{
-	background: url("../images/img-about1.jpg") no-repeat;
+	background: url("../img-about1.jpg") no-repeat;
 	background-size: cover !important;
 	background-position: 100% !important;
 	background-attachment: fixed !important;
 }
 .bg-about{
-	background: url("../images/img-about2.jpg") no-repeat;
+	background: url("../img-about2.jpg") no-repeat;
 }
 .about-right{
 	padding: 190px 20px;
@@ -703,7 +703,7 @@ p {
 	position: relative;
 }
 .services-item-left {
-	background: url(../images/services1.png) no-repeat;
+	background: url(../services1.png) no-repeat;
 	background-size: contain;
 	background-attachment: fixed;
 	min-height: 730px;
@@ -724,7 +724,7 @@ p {
 	transition-duration: 500ms;
 }
 .services-item-center {
-	background: url(../images/services2.png) no-repeat;
+	background: url(../services2.png) no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	min-height: 730px;
@@ -732,7 +732,7 @@ p {
 	position: relative;
 }
 .services-item-right {
-	background: url(../images/services3.png) no-repeat;
+	background: url(../services3.png) no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	min-height: 730px;
