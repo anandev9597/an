@@ -431,40 +431,6 @@ p {
 	position: relative;
 	overflow: hidden;
 }
-.box-modal:hover .caption-modal {
-	opacity: 1;
-}
-.box-modal .caption-modal {
-	position: absolute;
-	text-align: center;
-	opacity: 0;
-	transition: 1s all;
-	-webkit-transition: 1s all;
-	-moz-transition: 1s all;
-	-o-transition: 1s all;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: rgba(255,121,2,.9);
-}
-.box-modal .caption-modal p {
-	color: #fff !important;
-	font-size: 25px !important;
-	font-weight: 700 !important;
-}
-.box-modal .caption-modal button{
-	background: transparent;
-	border-radius: 50%;
-	padding: 10px 14px;
-	border-color: #fff;
-	border: 2px solid;
-}
 .box-modal:hover img.zoom {
 	transform: scale(1.2);
 }
@@ -1297,4 +1263,41 @@ svg .front {
 		}
 	}
 
+/*detail*/
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 720px;
+}
 
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.slider-header .slider-data-detail{
+	cursor:default;
+	position:relative;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100px;
+	overflow:hidden;
+}
+.jssor-detail{
+	width: 100%;
+	height: 100px !important;
+	visibility: visible;
+}
+.detail{
+	width: 100%;
+}
